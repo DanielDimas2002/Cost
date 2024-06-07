@@ -1,0 +1,90 @@
+.projeto_card{
+    padding: 1em;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    width: 25%;
+    margin: 0.5%;
+}
+
+.projeto_card h4{
+    background-color: #440000;
+    color: #FFCE00;
+    padding: 0.4em;
+    margin-bottom: 1.3em;
+    font-size: 1.3em;
+}
+
+.projeto_card p{
+    color: #7a7a7a;
+    margin-bottom: 1em;
+}
+
+.projeto_card p span{
+    font-weight: bold;
+}
+
+.categoria_texto{
+    display: flex;
+    align-items: center;
+}
+
+.categoria_texto span{
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 5px;
+}
+
+.categoria_texto .infra{
+    background-color: #ffaebc;
+}
+
+.categoria_texto .desenvolvimento{
+    background-color: #a0e7e5;
+}
+
+.categoria_texto .desing{
+    background-color: #b4f8c8;
+}
+
+.categoria_texto .planejamento{
+    background-color: #fbe7c6;
+}
+    
+
+.projeto_card_acoes{
+    margin-top: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.projeto_card_acoes svg{
+    margin-right: .5em;
+}
+
+.projeto_card_acoes a,
+.projeto_card_acoes button{
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+    color: #222;
+    font-size: 0.9em;
+    padding: 0.6em 1em;
+    margin-right: 1em;
+    cursor: pointer;
+    border: 1px solid #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.projeto_card_acoes a:hover,
+.projeto_card_acoes button:hover{
+    background-color: #440000;
+    color: #FFCE00;
+}
+
+
