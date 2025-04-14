@@ -37,7 +37,7 @@ Certifique-se de que você tem as seguintes ferramentas instaladas:
    Primeiro, clone o repositório para sua máquina local:
 
    ```bash
-   git clone https://github.com/seu-usuario/cost.git
+   git clone https://github.com/DanielDimas2002/cost.git
    ```
 
 2. **Instale as Dependências**
