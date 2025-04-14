@@ -1,125 +1,38 @@
 
 
-# Cost - Gerenciamento de Projetos e Custos
+# **Cost - Gerenciamento de Projetos e Custos** 📊💰
 
-**Cost** é uma aplicação que permite o gerenciamento de projetos, categorização de serviços e acompanhamento de orçamentos. O sistema permite a inclusão de projetos, adição de categorias, e controle de custos de maneira simples e eficiente. 
+**Cost** é uma aplicação para **gerenciamento de projetos** e **controle de custos**. O objetivo do projeto é fornecer uma maneira simples e eficaz para **gerenciar o orçamento de diferentes projetos**, categorizando serviços e mantendo um controle preciso dos custos totais.
 
-## Funcionalidades
+## **Funcionalidades** ⚙️
 
-- **Cadastro de Projetos**: Adicione, edite e remova projetos, atribuindo um nome e orçamento.
-- **Categorização**: Selecione categorias para os projetos, como Marketing, TI, Consultoria, etc.
-- **Gestão de Custos**: Acompanhe os custos totais de cada projeto, podendo incluir múltiplos serviços.
-- **Exclusão de Projetos e Serviços**: Exclua projetos ou serviços facilmente.
-- **Interface Simples e Intuitiva**: A interface foi projetada para ser amigável, rápida e eficiente para os usuários.
+- **Cadastro de Projetos**: Adicione, edite e remova projetos com nome e orçamento.
+- **Categorização**: Organize os projetos em diferentes categorias, como **Marketing**, **TI**, **Consultoria**, etc.
+- **Gestão de Custos**: Acompanhe e gerencie os custos totais de cada projeto.
+- **Exclusão de Projetos e Serviços**: Remova projetos ou serviços facilmente.
+- **Interface Simples e Intuitiva**: Interface amigável e otimizada para facilitar a gestão.
 
-## Tecnologias Utilizadas
+## **Tecnologias Utilizadas** 🛠️
 
 - **Frontend**: React.js
 - **Backend**: Node.js com Express.js
-- **Banco de Dados**: MongoDB (ou outro banco, dependendo da implementação)
-- **Estilos**: CSS Modules para estilização modular
-- **Bibliotecas de Icones**: React Icons
-- **Transições**: CSS para transições suaves
+- **Banco de Dados**: MongoDB (ou outro banco de dados dependendo da configuração)
+- **Estilos**: CSS Modules
+- **Bibliotecas de Ícones**: React Icons
 
-## Como Rodar o Projeto
+## **Assista ao Vídeo Demonstrativo** 🎥
 
-### Pré-requisitos
+Veja o vídeo para entender como o **Cost** funciona na prática! [Assista aqui](https://youtu.be/etRpq1etCyg?si=LOxpIn_5bhJ0r3BA).
 
-Certifique-se de que você tem as seguintes ferramentas instaladas:
+## **Como Funciona** 🚀
 
-- [Node.js](https://nodejs.org/en/) (versão recomendada: LTS)
-- [MongoDB](https://www.mongodb.com/try/download/community) (ou outro banco de dados, conforme sua configuração)
+1. **Adicione Projetos**: Insira o nome e o orçamento de cada projeto.
+2. **Escolha Categorias**: Atribua categorias aos seus projetos para uma melhor organização.
+3. **Gerencie Custos**: Acompanhe os custos de cada serviço relacionado ao projeto.
+4. **Exclua Projetos e Serviços**: Caso algum serviço ou projeto não seja mais necessário, você pode removê-los facilmente.
+5. **Acesse a Interface Intuitiva**: Navegue por uma interface limpa e direta para facilitar o gerenciamento de seus projetos.
 
-### Passo a Passo
+## **Contribuindo** 🤝
 
-1. **Clone o Repositório**
-
-   Primeiro, clone o repositório para sua máquina local:
-
-   ```bash
-   git clone https://github.com/DanielDimas2002/cost.git
-   ```
-
-2. **Instale as Dependências**
-
-   Navegue até o diretório do projeto e instale as dependências necessárias:
-
-   ```bash
-   cd cost
-   npm install
-   ```
-
-3. **Configuração do Backend**
-
-   Se você estiver usando o MongoDB, faça o download e instale localmente ou utilize um serviço como [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
-
-   Configure a variável de ambiente para a conexão com o banco de dados:
-
-   ```bash
-   MONGO_URI=mongodb://localhost:27017/cost
-   ```
-
-4. **Execute o Projeto**
-
-   Agora você pode rodar tanto o backend quanto o frontend:
-
-   - **Inicie o Backend**:
-
-     ```bash
-     npm run server
-     ```
-
-   - **Inicie o Frontend**:
-
-     Em um novo terminal, execute:
-
-     ```bash
-     npm run client
-     ```
-
-   O backend estará rodando em `http://localhost:5000` e o frontend em `http://localhost:3000`.
-
-## Como Usar
-
-1. Acesse a página inicial.
-2. Utilize o menu de navegação para acessar as páginas de Projetos, Categorias e Custos.
-3. Adicione novos projetos, defina um orçamento e escolha a categoria correspondente.
-4. Adicione serviços aos projetos e acompanhe os custos.
-5. Caso necessário, remova projetos ou serviços.
-
-## Estrutura de Diretórios
-
-Aqui está uma visão geral da estrutura do projeto:
-
-```
-cost/
-│
-├── src/
-│   ├── components/          # Componentes React
-│   ├── pages/               # Páginas principais
-│   ├── styles/              # Arquivos de estilo (CSS Modules)
-│   ├── App.js               # Arquivo principal do React
-│   └── index.js             # Arquivo de entrada
-│
-├── backend/                 # Código do servidor Node.js
-│   ├── models/              # Modelos do banco de dados
-│   ├── routes/              # Rotas da API
-│   └── server.js            # Arquivo de inicialização do servidor
-│
-├── .env                     # Variáveis de ambiente
-├── package.json             # Gerenciador de pacotes do Node.js
-└── README.md                # Este arquivo
-```
-
-## Contribuindo
-
-1. Fork o repositório.
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`).
-3. Faça suas alterações e commit (`git commit -am 'Adiciona nova feature'`).
-4. Push para a branch (`git push origin feature/nova-feature`).
-5. Abra um Pull Request.
-
-## Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Gostou do projeto? Sinta-se à vontade para contribuir! Caso tenha alguma ideia de melhoria ou queira corrigir um bug, basta criar uma **Pull Request** e ajudaremos a implementar.
 
